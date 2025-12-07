@@ -1,4 +1,4 @@
-/* General Styles */
+/* starting Styles */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header / Navigation */
+/* Header and Navigationn */
 header {
     background-color: #151923;
     padding: 20px 0;
@@ -374,8 +374,6 @@ main {
     font-weight: bold;
 }
 
-/* Responsive Design */
-
 /* About Page Styles */
 .about-header {
     margin-bottom: 40px;
@@ -469,5 +467,14 @@ main {
 
     .page-title {
         font-size: 28px;
+    }
+
+    .favorite-game-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .favorite-game-content .game-image {
+        width: 100%;
     }
 }
