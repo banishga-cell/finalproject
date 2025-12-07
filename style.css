@@ -124,18 +124,15 @@ main {
     align-items: flex-start;
 }
 
-.game-image {
-    position: relative;
-    flex-shrink: 0;
-    width: 350px;
-}
-
-.game-image img {
+.game-image img{
     width: 100%;
     height: auto;
     border-radius: 8px;
     display: block;
     background-color: #0f1419;
+    position: relative;
+    flex-shrink: 0;
+    width: 350px;
 }
 
 .rating-badge {
@@ -215,7 +212,6 @@ main {
     color: #888;
     font-weight: bold;
 }
-
 .rating-stars {
     display: flex;
     gap: 4px;
@@ -285,10 +281,17 @@ main {
     padding: 20px;
 }
 
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
 .review-date {
     font-size: 12px;
     color: #888;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .review-title {
@@ -303,7 +306,6 @@ main {
     display: flex;
     align-items: center;
     gap: 6px;
-    margin-bottom: 15px;
 }
 
 .review-rating .star {
@@ -320,6 +322,117 @@ main {
     font-size: 13px;
     line-height: 1.6;
     color: #b0b0b0;
+}
+
+/* Industry News Page Styles */
+.news-header {
+    margin-bottom: 60px;
+}
+
+.news-articles-section {
+    margin-top: 40px;
+}
+
+.news-article {
+    background-color: rgba(255, 149, 0, 0.05);
+    border: 1px solid rgba(255, 149, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.article-date {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.article-subtitle {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.article-text {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #b0b0b0;
+    margin-bottom: 15px;
+}
+
+.highlight-label {
+    color: #F97316;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+
+/* About Page Styles */
+.about-header {
+    margin-bottom: 40px;
+}
+
+.about-content {
+    max-width: 900px;
+}
+
+.about-text {
+    background-color: rgba(255, 149, 0, 0.05);
+    border: 1px solid rgba(255, 149, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.about-label {
+    color: #F97316;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.about-text p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #b0b0b0;
+}
+
+.favorite-game-section {
+    margin-top: 60px;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+    max-width: 900px;
+}
+
+.favorite-game-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.favorite-game-details {
+    flex: 1;
+}
+
+.favorite-game-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
 /* Responsive Design */
